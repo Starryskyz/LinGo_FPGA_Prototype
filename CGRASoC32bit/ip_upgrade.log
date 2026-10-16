@@ -1,0 +1,219 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:14:17 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_zynq_ultra_ps_e_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_zynq_ultra_ps_e_0_0 from xilinx.com:ip:zynq_ultra_ps_e:3.3 (Rev. 6) to xilinx.com:ip:zynq_ultra_ps_e:3.4 (Rev. 1)
+
+2. Upgrade messages
+-------------------
+
+Set parameter PSU__GPIO_EMIO__PERIPHERAL__IO to value 95 (source 'default')
+WARNING: upgrade cannot add parameter PSU__USE__USB3_0_HUB with default value 0 : a parameter called PSU__USE__USB3_0_HUB already exists in zynq_ultra_ps_e_v3_4
+WARNING: upgrade cannot add parameter PSU__USE__USB3_1_HUB with default value 0 : a parameter called PSU__USE__USB3_1_HUB already exists in zynq_ultra_ps_e_v3_4
+Set parameter PSU__PROTECTION__FPD_SEGMENTS to value SA:0xFD1A0000; SIZE:1280; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD000000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD010000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD020000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD030000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD040000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD050000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD610000; SIZE:512; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |   SA:0xFD5D0000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware  |  SA:0xFD1A0000 ; SIZE:1280; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem (source 'default')
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:14:17 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_smartconnect_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_smartconnect_2_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 17) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+design_1_smartconnect_2_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:14:17 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_smartconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_smartconnect_0_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 17) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+design_1_smartconnect_0_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:14:16 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_smc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_smc_0 (xilinx.com:ip:smartconnect:1.0) from (Rev. 17) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection and Interface Information
+---------------------------------------
+
+Connection and Interface information can not be compared for deferred elaboration IPs.
+design_1_axi_smc_0 may have connection or interface changes.
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:14:16 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_cdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_cdma_0_0 (xilinx.com:ip:axi_cdma:4.1) from (Rev. 25) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:13:58 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FP32MulIP'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FP32MulIP (xilinx.com:ip:floating_point:7.1) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:13:58 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'FP32AddIP'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of FP32AddIP (xilinx.com:ip:floating_point:7.1) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:13:57 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'BF16MulIP'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of BF16MulIP (xilinx.com:ip:floating_point:7.1) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Oct 12 17:13:56 2026
+| Host         : saturn running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-i
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'BF16AddIP'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of BF16AddIP (xilinx.com:ip:floating_point:7.1) from (Rev. 13) to (Rev. 15)
+

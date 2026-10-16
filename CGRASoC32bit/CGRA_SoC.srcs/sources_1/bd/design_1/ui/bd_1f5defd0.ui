@@ -1,0 +1,34 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.811681",
+   "Default View_TopLeft":"1230,-195",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst rst_ps8_0_96M -pg 1 -lvl 1 -x 200 -y 360 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 2 -x 540 -y 90 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 7 -x 2320 -y 100 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 4 -x 1070 -y 100 -defaultsOSRD
+preplace inst smartconnect_2 -pg 1 -lvl 6 -x 2040 -y 310 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 5 -x 1550 -y 90 -defaultsOSRD
+preplace inst CGRAAXITop19_0 -pg 1 -lvl 3 -x 810 -y 330 -defaultsOSRD
+preplace netloc axi_cdma_0_cdma_introut 1 2 3 680J 20 N 20 1230
+preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 1 6 390 200 N 200 930 200 NJ 200 1890 120 N
+preplace netloc rst_ps8_0_96M_peripheral_reset 1 1 2 NJ 360 N
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 7 10 180 380 180 680 180 920 180 1240 180 1880 100 N
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 6 20 240 NJ 240 NJ 240 N 240 NJ 240 1860
+preplace netloc axi_cdma_0_M_AXI 1 2 2 N 80 N
+preplace netloc axi_smc_M00_AXI 1 1 7 400 190 NJ 190 N 190 NJ 190 NJ 190 N 190 2470
+preplace netloc axi_smc_M01_AXI 1 5 3 1900 20 N 20 2480
+preplace netloc axi_smc_M02_AXI 1 2 6 690 210 N 210 N 210 N 210 N 210 2460
+preplace netloc smartconnect_0_M00_AXI 1 4 2 1210 230 1870
+preplace netloc smartconnect_0_M01_AXI 1 4 1 1220 60n
+preplace netloc smartconnect_2_M00_AXI 1 2 5 700 220 N 220 N 220 N 220 2180
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 5 2 N 70 2180
+levelinfo -pg 1 -10 200 540 810 1070 1550 2040 2320 2500
+pagesize -pg 1 -db -bbox -sgen -10 0 2500 1040
+"
+}
+{
+   "da_axi4_cnt":"1"
+}
