@@ -1,6 +1,13 @@
-LLM CGRA demo vitis手工修改的部分包括：
+CGRA demo vitis手工修改的部分包括：
 
 1. Ld script里面的heap 改为0x2000_0000
 2. C++ build setting linker library 填写m
-3. 编译优化-O2
-4. 添加bsp的xilff文件读写库
+3. 编译优化选择-O2
+4. 添加bsp的xilff文件读写库（如果需要读写sd卡需要，例如llama模型推理）
+
+The following manual modifications are required for the CGRA demo in Vitis:
+
+1. Linker Script: Set the heap size to `0x20000000`.
+2. C++ Build Settings: Add `m` to the linker libraries.
+3. Compiler Optimization: Set the optimization level to `-O2`.
+4. BSP Configuration: Add the `xilffs` file system library if SD card read/write operations are required (e.g., for LLaMA model inference).
